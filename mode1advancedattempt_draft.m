@@ -2,7 +2,7 @@ function D = mode1advancedattempt_draft(D,envelopeOuter,stop)
 %Since negative Sinkrates will never cause a Mode1 alert, they can be
 %excluded from the examination
 
-%Hallo Welt
+%Hallo Welt Klappe 2
 rowsToDelete        = any(D.sinkrate_fpm <= 0,2);
 D(rowsToDelete,:)   = [];
 
