@@ -1,3 +1,4 @@
+%Hallo
 classdef Polygon < handle
 %Überprüfung handle TODO    
 %User Validierung z.b. Objekt Test nicht möglich
